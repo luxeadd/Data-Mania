@@ -1,0 +1,173 @@
+@media (max-width:1000px) {
+  
+  
+}
+
+@media (max-width:900px) {
+ 
+ .fa-bars {
+   display: block;
+   z-index: 2;
+ }
+ 
+ 
+  .header-nav {
+    display: none;
+  }
+  
+  .header-inner {
+    padding:0;
+    
+  }
+
+  .header-title {
+     font-size: 24px;
+     width: 300px;
+     margin: 0 auto;
+  }
+
+  .header-icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .primary-button {
+    min-width: 200px;
+    width: 100%;
+  }
+
+  .common-inner {
+    width: 100%;
+  }
+  .news-list {
+    padding: 0 50px;
+  }
+  
+  .news-list_item a {
+    display: block;
+    line-height: 1.75;
+  
+  }
+
+   .news-list_item span {
+    
+
+  }
+
+  #service {
+    padding: 0;
+    width: 100%;
+    padding: 100px 0;
+  }
+
+  .service-block {
+    display: block;
+    width: 90%;
+    padding: 50px 0;
+  }
+  
+  .service-text {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .service-image {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .service-image_item {
+    width: 33%;
+  }
+
+  .service-image_item:not(:last-child) {
+    margin-right: 0px;
+  
+  }
+  .service-image_item:nth-child(4) {
+    margin-left: 0px;
+  }
+  
+  .service-image_item:nth-child(-n+3) {
+    margin-bottom: 0px;
+  }
+  
+  #advance {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .advance-item {
+    flex-wrap: wrap;
+  }
+
+  .advance-item_image {
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .advance-item_image img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .advance-item_text {
+    padding-top: 15px;
+  }
+  .advance-item_text h3 {
+    text-align: center;
+    
+  }
+
+  .client-block {
+    padding: 10px;
+  }
+
+  .client-item {
+     width: 90%;
+  }
+
+  .client-item_image img {
+    width: 100%;
+  }
+
+  .client-item:nth-child(1),.client-item:nth-child(4){
+    float: none;
+    margin: 0 auto 50px;;
+  }
+  .client-item:nth-child(2),.client-item:nth-child(3){
+    float: none;
+    margin: 0 auto 50px;
+  }
+
+  .contact-form {
+    width: 80%;
+
+  }
+
+  .footer-nav {
+    padding: 20px;
+  }
+
+  .footer-nav {
+    display: block;
+  }
+
+  .footer-nav_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-nav_list a {
+    margin-right: 10px;
+  }
+
+}
